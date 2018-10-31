@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.625" name="Coursemo">
+  <DataContextMoniker Name="/CoursemoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="eb4167e1-05ee-461c-9761-b7005a51fd94" absoluteBounds="0.75, 7.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/CoursemoDataContext/Course" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26cd0d33-8e5b-4197-8b82-a8a1b09af27f" absoluteBounds="0.765, 8.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98fb9c8b-dc67-421a-840d-1d9af1405156" absoluteBounds="3.5, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CoursemoDataContext/Enrolled" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7591d516-747c-432d-9b09-e8843137259a" absoluteBounds="3.515, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f21c316d-0890-4546-83d5-8c2374d8ff0a" absoluteBounds="0.75, 3.875, 2, 1.3862939453124992">
+      <DataClassMoniker Name="/CoursemoDataContext/Student" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c67827c9-2c35-4a97-bfea-0aa383fe00d3" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cde994d6-3103-4a62-9166-cb219294bfd2" absoluteBounds="3.5, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CoursemoDataContext/Waitlist" />
+      <nestedChildShapes>
+        <elementListCompartment Id="265e225d-b84d-4035-a5e2-1679ae4d1d42" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 9.14505126953125); (4.5 : 9.14505126953125); (4.5 : 5.32859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CoursemoDataContext/Course/Course_Enrolled" />
+      <nodes>
+        <classShapeMoniker Id="eb4167e1-05ee-461c-9761-b7005a51fd94" />
+        <classShapeMoniker Id="98fb9c8b-dc67-421a-840d-1d9af1405156" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.56814697265625); (3.04166666666667 : 4.56814697265625 : JumpStart); (3.20833333333333 : 4.56814697265625 : JumpEnd); (3.5 : 4.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CoursemoDataContext/Student/Student_Enrolled" />
+      <nodes>
+        <classShapeMoniker Id="f21c316d-0890-4546-83d5-8c2374d8ff0a" />
+        <classShapeMoniker Id="98fb9c8b-dc67-421a-840d-1d9af1405156" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.87653746153846); (3.125 : 7.50153746153846); (3.125 : 1.53929768880208); (3.5 : 1.53929768880208)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CoursemoDataContext/Course/Course_Waitlist" />
+      <nodes>
+        <classShapeMoniker Id="eb4167e1-05ee-461c-9761-b7005a51fd94" />
+        <classShapeMoniker Id="cde994d6-3103-4a62-9166-cb219294bfd2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 3.875); (1.75 : 1.96519903320312); (3.04166666666667 : 1.96519903320312 : JumpStart); (3.20833333333333 : 1.96519903320312 : JumpEnd); (3.5 : 1.96519903320312)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CoursemoDataContext/Student/Student_Waitlist" />
+      <nodes>
+        <classShapeMoniker Id="f21c316d-0890-4546-83d5-8c2374d8ff0a" />
+        <classShapeMoniker Id="cde994d6-3103-4a62-9166-cb219294bfd2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

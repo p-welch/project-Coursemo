@@ -1,0 +1,12 @@
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\bin\Debug\Coursemo.mdf
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\bin\Debug\Coursemo_log.ldf
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\bin\Debug\welch9Project4App.exe.config
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\bin\Debug\welch9Project4App.exe
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\bin\Debug\welch9Project4App.pdb
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.csprojAssemblyReference.cache
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.Form1.resources
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.Properties.Resources.resources
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.csproj.GenerateResource.cache
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.csproj.CoreCompileInputs.cache
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.exe
+C:\Users\PatrickWelch\Desktop\CS 480\Project 4\P4both\App\welch9Project4App\welch9Project4App\obj\Debug\welch9Project4App.pdb
